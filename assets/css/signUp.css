@@ -1,5 +1,5 @@
 body{
-    background-color:orange;
+    background-color:#ee2868;
     
 }
 nav{
@@ -11,7 +11,7 @@ section{
     padding: 50px;
     width: 50%;
     margin-left: 25%;
-    background-color: orange;
+    background-color: white;
     display:inline-block;
 }
 
@@ -33,7 +33,7 @@ i{
     visibility: hidden;
 }
 small{
-    color: yellow;
+    color: #ee2866;
     font-size: 13px;
 }
 
@@ -48,13 +48,15 @@ button{
     height:50%;
     font-size: 20px;
     padding: 5px;
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     border: none;
     border-radius: 8px;
 }
 button:hover{
     width:24%;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
+    border:2px solid black;
+    transition: 1s ease-in-out;
 }
