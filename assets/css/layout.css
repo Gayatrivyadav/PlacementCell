@@ -3,20 +3,26 @@ body{
 }
 nav{
     padding:15px;
-    background-color: rgb(3,45,107);
+    background-color: white;
     margin-top: -0.4%;
-    width: 100%;
+    width: auto;
+    height:auto;
+    color:black;
+    
 
 }
 nav > a:hover{
-     border-bottom: 4px solid orange;
-     padding-bottom: 11px;
+     border-bottom: 4px solid #ee2868;
+     padding-bottom: 4px;
 }
 a{
     padding-left: 15px;
     padding-right: 15px;
     text-decoration: none;
-    color: white;
+    /* color: white; */
     font-size: 20px;
+    margin-bottom: 10px;
+    color: #ee2868;
+    font-weight: bold;
 
 }
